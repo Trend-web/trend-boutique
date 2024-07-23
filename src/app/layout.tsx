@@ -8,7 +8,7 @@ import { CartProvider } from "@/contexts/CartContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Trend Boutique",
+  title: "Trend Collection",
   description: "WebApp Crafted by Azim Khorajiya",
 };
 

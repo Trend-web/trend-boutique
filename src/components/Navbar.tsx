@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link href="/" className="text-2xl font-bold text-gray-800">
-            ModernCloth
+            Trend Collections
           </Link>
           <div className="flex space-x-4">
             <Link href="/account" className="text-gray-600 hover:text-gray-800">
