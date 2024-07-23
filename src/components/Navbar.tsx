@@ -1,5 +1,5 @@
-// components/Navbar.js
-import Link from 'next/link'
+import CartDropdown from './CartDropdown';
+import Link from 'next/link';
 
 export default function Navbar() {
   return (
@@ -16,12 +16,10 @@ export default function Navbar() {
             <Link href="/account" className="text-gray-600 hover:text-gray-800">
               Account
             </Link>
-            <Link href="/cart" className="text-gray-600 hover:text-gray-800">
-              Cart
-            </Link>
+            <CartDropdown />
           </div>
         </div>
       </div>
     </nav>
-  )
+  );
 }
