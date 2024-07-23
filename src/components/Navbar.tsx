@@ -10,9 +10,6 @@ export default function Navbar() {
             ModernCloth
           </Link>
           <div className="flex space-x-4">
-            <Link href="/menu" className="text-gray-600 hover:text-gray-800">
-              Menu
-            </Link>
             <Link href="/account" className="text-gray-600 hover:text-gray-800">
               Account
             </Link>
